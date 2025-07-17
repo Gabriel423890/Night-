@@ -1,0 +1,104 @@
+!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Central de Jogos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 2em;
+      color: #00ffd5;
+      text-shadow: 0 0 10px #00ffd5;
+    }
+
+    .jogo {
+      background: rgba(255, 255, 255, 0.05);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .jogo:hover {
+      transform: scale(1.03);
+    }
+
+    .jogo h2 {
+      color: #00ffd5;
+    }
+
+    .jogo p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00ffd5;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .botao:hover {
+      background: #00c9a7;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎮 Central de Jogos</h1>
+    <p>Baixe aqui seus jogos favoritos direto do seu celular!</p>
+  </header>
+
+  <div class="jogo">
+    <h2>Corrida Maluca</h2>
+    <p>Desvie do trânsito e vença seus amigos na corrida!</p>
+    <a class="botao" href="CorridaMaluca.apk" download>⬇ Baixar Jogo</a>
+  </div>
+
+  <div class="jogo">
+    <h2>Aventura Pixel</h2>
+    <p>Um jogo retrô de aventura com gráficos em pixel art.</p>
+    <a class="botao" href="AventuraPixel.apk" download>⬇ Baixar Jogo</a>
+  </div>
+
+  <div class="jogo">
+    <h2>Zumbi City</h2>
+    <p>Sua missão é sobreviver ao apocalipse zumbi. Pronto?</p>
+    <a class="botao" href="ZumbiCity.apk" download>⬇ Baixar Jogo</a>
+  </div>
+
+  <footer>
+    <p>Site criado por Gabriel • © 2025</p>
+  </footer>
+
+</body>
+</html>
